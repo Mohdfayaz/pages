@@ -112,3 +112,67 @@ header {
   background-size: cover;
   z-index: 1;
 }
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  padding: 40px 30px;
+  text-align: center;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card .icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.info-card h3 {
+  color: #222;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.message-section {
+  text-align: center;
+  padding: 60px 20px 80px;
+  background-color: #fff;
+}
+
+.message-section h2 {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.message-section p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 600px;
+  margin: auto;
+}
